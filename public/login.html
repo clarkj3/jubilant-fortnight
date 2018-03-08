@@ -3,20 +3,19 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:100" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
-        <link rel="stylesheet" href="styl1e.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
         <script src="index.js"></script>
     </head>
 
     <body>
         <header>
             <div class="logo-container">
-                <img src="logo.jpg" alt="PickUp logo">
+                <img src="logo2.png" alt="PickUp logo">
                     </div>
-            <h1 class="page-header"><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiIvazPnMfZAhVE4GMKHTbIAREQPAgD">PickUp!</a></h1>
         </header>
 
         <!-- This is a briefly introduction of our website which will be on the left side of the page-->
-        <div class="some-sentences">PickUp! Your Event In Our Community</div>
+        <div class="login">Login to your account</div>
 
         <!-- This is the account part which is on the right side-->
         <div class="account-part">
@@ -31,7 +30,13 @@
                 <input type="text" name="password" id="password" class="account-input">
             </div>
             <!-- forgot button-->
+	    <div class="bottons">
+		<input type="button" onclick="location.href='login.html';" value="Forgot Password">
+		<input type="button" onclick="location.href='create_account.html';" value="Sign Up">	
+     <!---
             <button id="filter-update-button" class="action-button">Forgot Password?</button>
             <button id="filter-update-button" class="action-button">Sign Up</button>
+    -->
+
     </body>
 </html>
