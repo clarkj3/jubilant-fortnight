@@ -3,21 +3,27 @@
 <head>
 <title>Password Recovery</title>
 <script src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 <h1>Password Recovery</h1>
 
-<p>Enter the email address associated with the account.</p>
+	<div class="passwordRecovery">Enter the email address associated with the account.</div>
 
 <p id="error" class="error"></p>
 
 <!-- Create form for requesting the email address of the account -->
 <form name="passRecover" action="" onsubmit="return validateAccountEmail();" method="post">
-	E-mail:
-	<input type="email" name="email" required><br>
-	<input type="submit" value="Recover Password">
-	<input type="button" onclick="location.href='login.html';" value="Log In">
+	<div class="email">
+		E-mail:
+		<input type="email" name="email" required><br>
+	</div>
+
+	<div class="bottons">
+		<input type="submit" value="Recover Password">
+		<input type="button" onclick="location.href='login.html';" value="Log In">
+	</div>
 </form>
 
 
